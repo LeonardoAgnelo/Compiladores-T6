@@ -36,7 +36,7 @@ ANTLR4 Python Runtime
     $ pip install antlr4-tools
 
     # Gerar Lexer
-    $ antlr4 -Dlanguage=Python3 LA.g4 -o "Parser"
+    $ antlr4 -Dlanguage=Python3 Todolist.g4 -o "Parser"
 
     # Teste
     $ py main.py "teste.txt" "saida.txt"
